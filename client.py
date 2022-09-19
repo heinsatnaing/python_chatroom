@@ -1,7 +1,7 @@
 import socket
 import threading
 
-alias = input("Choose an alias")
+alias = input("Choose an alias >")
 client = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 client.connect(('127.0.0.1', 12345))
 
